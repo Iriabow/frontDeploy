@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.15",
+    "express": "^4.16.4",
     "owl.carousel": "^2.3.4",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
