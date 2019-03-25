@@ -7,7 +7,7 @@ var https = require('https')
 let app = express();
 app.use(serveStatic(__dirname + "/dist"));
 
-const port = process.env.PORT || 5000;
+
 
 https.createServer({
   key: fs.readFileSync('server.key'),
